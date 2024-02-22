@@ -1,12 +1,58 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.myapplication",
-    "sha256_cert_fingerprints":
-    ["88:68:B1:18:46:01:AF:14:54:98:64:F8:78:BA:20:C3:40:DE:76:24:D6:18:CD:31:A1:E1:19:63:4E:11:57:D7"],
-    "paths" : [
-      "NOT /abcd"
-    ]
-  }
-}]
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.deliverynow",
+            "sha256_cert_fingerprints": [
+                "E1:62:AE:1C:5E:47:9B:A7:16:71:D4:78:29:58:3B:22:64:D3:A5:DE:0F:94:09:94:9F:F1:F5:A6:1E:E0:69:96"
+            ],
+            "paths": [
+                "NOT /gioi-thieu",
+                "NOT /how-to-order-delivery",
+                "NOT /payment-guide",
+                "NOT /regulation",
+                "NOT /regulation-now",
+                "NOT /quy-che-now",
+                "NOT /terms-of-service",
+                "NOT /security-policy",
+                "NOT /adjustment-of-claims",
+                "NOT /lien-he",
+                "NOT /tuyen-dung",
+                "NOT /merchant-register",
+                "NOT /account/login",
+                "*"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.foody.now.vn.internal",
+            "sha256_cert_fingerprints": [
+                "E1:62:AE:1C:5E:47:9B:A7:16:71:D4:78:29:58:3B:22:64:D3:A5:DE:0F:94:09:94:9F:F1:F5:A6:1E:E0:69:96"
+            ],
+            "paths": [
+                "NOT /gioi-thieu",
+                "NOT /how-to-order-delivery",
+                "NOT /payment-guide",
+                "NOT /regulation",
+                "NOT /regulation-now",
+                "NOT /quy-che-now",
+                "NOT /terms-of-service",
+                "NOT /security-policy",
+                "NOT /adjustment-of-claims",
+                "NOT /lien-he",
+                "NOT /tuyen-dung",
+                "NOT /merchant-register",
+                "NOT /account/login",
+                "*"
+            ]
+        }
+    }
+]
