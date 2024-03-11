@@ -5,9 +5,21 @@
         ],
         "target": {
             "namespace": "android_app",
-            "package_name": "",
+            "package_name": "com.deliverynow",
             "sha256_cert_fingerprints": [
-                "E"
+                "E1:62:AE:1C:5E:47:9B:A7:16:71:D4:78:29:58:3B:22:64:D3:A5:DE:0F:94:09:94:9F:F1:F5:A6:1E:E0:69:96"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.foody.now.vn.internal",
+            "sha256_cert_fingerprints": [
+                "E1:62:AE:1C:5E:47:9B:A7:16:71:D4:78:29:58:3B:22:64:D3:A5:DE:0F:94:09:94:9F:F1:F5:A6:1E:E0:69:96"
             ]
         }
     }
